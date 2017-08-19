@@ -26,4 +26,4 @@ production:
   pool: 5
   database: mail_basis_production
   username: mail_basis
-  password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
+  password: <%= ENV['MAIL_BASIS_DATABASE_PASSWORD'] %>
